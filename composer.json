@@ -1,0 +1,28 @@
+{
+    "name": "martin-ro/ui-components",
+    "description": "Laravel Blade components with Alpine JS and Tailwind CSS.",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "MartinRo\\UiComponents\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MartinRo\\UiComponents\\UiComponentsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
